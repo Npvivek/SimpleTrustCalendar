@@ -130,7 +130,17 @@
     left: -60px;
   }
 }
-@media(max-width: 100px){
+@media(max-width:400px) and (min-width:50px){
+  .wrapper h3 {
+    font-size: calc(0rem + 6vw);
+    font-style: italic;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* @media(max-width: 100px){
   .wrapper .center-line,
   .row section::before,
   .row section .icon{
@@ -139,4 +149,4 @@
   .wrapper .row{
     margin: 10px 0;
   }
-}
+} */
