@@ -87,16 +87,10 @@ a:active {
 }
 
 .social-icons {
-  /* display: flex; */
   padding: 15px;
-  /* padding-right: 100px; */
-  ;
-  /* padding-right: 12rem; */
-  /* background-color: #00506b; */
   gap: 5px;
   display: flex;
   flex-flow: row-reverse wrap;
-  /* padding: 30px; */
   text-align: right;
 }
 
