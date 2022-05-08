@@ -8,6 +8,10 @@
 
 footer h6{
   margin-top: 10px;
+  color: #7b7b7b;
+}
+footer a{  
+  margin: auto;
 }
 
 .wrapper{
